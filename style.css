@@ -1,0 +1,245 @@
+/*
+Theme Name: wp-term-mini
+Theme URI: http://example.com/
+Description: サンプルテーマ
+Version: 1.0
+Author: myname
+Author URI: http://example.com/
+*/
+
+@charset"UTF-8";
+html,body,div,h1,h2,h3,h4,h5,h6,ul,li,a{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	display: block;
+	width: 100%;
+	height: 80px;
+	background-color: #d2691e;
+}
+.container{
+	width: 100%;
+	background-color: #fffaf0;
+}
+.header .container{
+	background-color: inherit;
+}
+.img-top{
+	width: 100%;
+	position: absolute;
+}
+@media screen and (min-width: 768px){
+	.header_after_title{
+		display: none;
+	}
+}
+.title_box{
+	display: inline-block;
+	width: 100%;
+	height: 400px;
+}
+.title_box_list{
+	display: inline-block;
+	width: 100%;
+	height: 400px;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.title_box_list_title {
+	display: inline-block;
+	width: 100%;
+	height: 400px;
+	color: #fffafa;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 155px;
+}
+.container_block{
+	background-color: #fffaf0;
+}
+.navbar-top{
+	margin-top: 20px;
+}
+.collapse navbar-collapse{
+	width: 100%;
+	display: inline-block;
+}
+.navbar-nav{
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.dropdown{
+	width: 100%;
+}
+.dropdown-toggle{
+	text-align: center;
+}
+@media screen and (min-width: 768px){
+	.navbar-header{
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1020px){
+	.dropdown{
+		width: 50%;
+	}
+}
+@media screen and (min-width: 1020px){
+	.dropdown{
+		width: 25%;
+	}
+}
+.container_block_menu{
+	display: inline-block;
+	width: 100%;
+	height: 80px;
+}
+@media screen and (min-width: 768px){
+	.container_block_menu{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px){
+	.container_block_menu{
+		display: inline-block;
+		width: 100%;
+	}
+}
+.content{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	background-color: #fffaf0;
+}
+.content_list{
+	display: inline-block;
+	margin: 0 130px;
+	padding: 15px;
+}
+.content_list img{
+	display: inline-block;
+	width: 40%;
+	height: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1020px){
+	.content_list{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 768px){
+	.content_list{
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+}
+.content_list_block{
+	display: inline-block;
+	width: 50%;
+	height: 300px;
+	vertical-align: top;
+	text-align: center;
+}
+.content_list_block_comment{
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	padding: 50px 25px;
+	text-align: center;
+	vertical-align: top;
+}
+@media screen and (max-width: 768px){
+	.content_list_block_comment{
+		padding: 15px 25px;
+	}
+}
+.content_list_block_comment h2 a{
+	color: #f4a460;
+}
+.content_list_block_title{
+	display: inline-block;
+	font-size: 40px;
+}
+.content_list_block_title_box{
+	font-size: 15px;
+	margin: 10px 15px;
+}
+.content_box img{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1020px){
+	.content_box li img{
+		width: 100%;
+		height: 250px;
+	}
+}
+@media screen and (max-width: 768px){
+	.content_box li img{
+		width: 100%;
+		height: 250px;
+	}
+}
+.content_box li{
+	display: inline-block;
+	width: 33%;
+	height: 250px;
+}
+.content_box li:nth-child(2){
+	width: 34%;
+	height: 250px;
+}
+.content_box li:nth-child(5){
+	width: 34%;
+	height: 250px;
+}
+.content_box img{
+	display: inline-block;
+	width: 100%;
+	height: 250px;
+}
+.pagination_list{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	background-color: #fffaf0;
+	margin: auto;
+}
+.pagination_list_box{
+	text-align: center;
+	margin: auto;
+}
+.footer{
+	display: inline-block;
+	width: 100%;
+	height: 90px;
+	background-color: #deb887;
+	position: relative;
+}
+.footer_title{
+	text-align: center;
+	padding-top: 40px;
+}
+.screen-reader-text{
+	display: none;
+}
+.header_title{
+	color: #f4a460;
+	text-align: center;
+	padding-top: 30px;
+}
+.row{
+	text-align: center;
+}
